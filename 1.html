@@ -4,26 +4,64 @@
     <meta charset="utf-8">
     <title>내가 좋아하는 것</title>
     <style media="screen">
-      h1{border-bottom: 5px solid grey;
-      margin: 0px;}
-
-      ol{border-right: 5px solid grey;
-      margin: 0;
-      display: block;
-    width: 100px;
-  padding: 20px;}
-    </style>
+      h1{font-size: 40px;
+        text-align: center;
+        border-bottom: 3px solid grey;
+      padding:20px;
+  margin:0px;}
+      ol{font-size: 25px;
+display:block;
+    width: 150px;
+  padding: 20px;
+  margin:0px;}
+  a{color:black;
+text-decoration: none;}
+.grid{display: grid;
+grid-template-columns: 200px 1fr;}
+.navigation{padding-right: 50px;
+  padding-left: 30px;
+    border-right: 3px solid grey;}
+.article{
+padding-left:30px;}
+.cha{   width: 300px;
+    height: auto;}
+    .ama{   width: 300px;
+    height: auto;}
+</style>
   </head>
   <body>
     <h1><a href="index.html">내가 좋아하는 것</a></h1>
-    <div class="">
-      <div class="">
-          <h2>버블티</h2>
-          <h2>장범준</h2>
-          <h2>인스타그램</h2>
-          </div>
-      타피오카로 만든 알갱이를 넣어 만든 음료
-  <img src="Gong cha.jpg" alt="">
-            </div>
-  </body>
+<div class="grid">
+  <div class="navigation">
+    <ol>
+      <li><a href="1.html">버블티</a></li>
+      <li>장범준</li>
+      <li>인스타그램</li>
+    </ol>
+    </div>
+<div class="article">
+<p>타피오카로 만든 알갱이를 넣어 만든 음료</p>
+<img class="cha"src="Gong cha.jpg" alt="">
+<img class="ama"src="amasvin.jpg" alt="">
+<br>
+<br>
+<br>
+<br>
+<table style="width:50%">
+<tr>
+<th>공차</th>
+<th>아마스빈</th>
+</tr>
+<tr>
+<td>얼그레이 밀크티</td>
+<td>초코 오레오 쉐이크</td>
+</tr>
+<tr>
+<td>브라운 슈가 쥬얼리 밀크티</td>
+<td>딸기 요거트 버블티</td>
+</tr>
+</table>
+</div>
+</div>
+</body>
 </html>

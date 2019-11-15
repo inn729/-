@@ -10,28 +10,35 @@
       padding:20px;
   margin:0px;}
       ol{font-size: 25px;
-        border-right: 3px solid grey;
-        display:block;
+display:block;
     width: 150px;
   padding: 20px;
   margin:0px;}
   a{color:black;
 text-decoration: none;}
-#aa{display: grid;
-}
+.grid{display: grid;
+grid-template-columns: 200px 1fr;}
+.navigation{padding-right: 50px;
+  padding-left: 30px;
+    border-right: 3px solid grey;}
+.article{
+padding-left:30px;}
 </style>
   </head>
   <body>
-<h1>내가 좋아하는 것</h1>
-<div id="aa">
-  <ol>
-    <li><a href="1.html">버블티</a></li>
-    <li>장범준</li>
-    <li>인스타그램</li>
-  </ol>
-  <div id="bb">
-
-  </div>
+<h1><a href="index.html">내가 좋아하는 것</a></h1>
+<div class="grid">
+  <div class="navigation">
+    <ol>
+      <li><a href="1.html">버블티</a></li>
+      <li>장범준</li>
+      <li>인스타그램</li>
+    </ol>
+    </div>
+<div class="article">
+<p>인하대학교</p>
+<p>식품영양학과 전인영</p>
+</div>
 </div>
   </body>
 </html>
