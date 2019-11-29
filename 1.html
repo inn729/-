@@ -6,22 +6,44 @@
   <title>내가 좋아하는 것</title>
   <link rel="stylesheet" href="style.css">
   <style media="screen">
-    table{
+    table{width: 600px;
       border: 2px solid black;
     border-collapse: collapse;
-  text-align: center;}
+  text-align: center;
+margin-left: 50px;
+float: left;}
     th,td{border: 2px solid black;
     padding: 10px;}
-.pic{width:100px; height: 50px;}
-.cha {
-  width: 300px;
-  height: auto;
-}
+    th{width: 200px;
+    height: 30px;}
+    td{height: 50px;
+    font-size: 14px;}
+    h3{padding-left: 275px;}
+    .cha {
+      width: 300px;
+      height: 300px;
+    }
 
-.ama {
-  width: 300px;
-  height: auto;
-}
+    .ama {
+      width: 300px;
+      height: 300px;
+    }
+    .pal{width: 300px;
+    height: 300px;}
+    .br{width:250px; height: 250px;
+    float: left;
+  padding-left: 200px;}
+  .mi{width:250px; height: 250px;
+  float: left;}
+    .pic{margin: auto;
+    height: 300px;
+    width: 1100px;}
+    .one{float: left;}
+    .two{float: left;
+    padding-left: 100px;}
+    .three{float: left;
+    padding-left: 100px;}
+
   </style>
 </head>
 
@@ -38,32 +60,45 @@
     <div class="article">
 <h2>버블티</h2>
       <p>타피오카로 만든 알갱이를 넣어 만든 음료</p>
+      <br><br><br>
       <div class="pic">
-        <img class="cha" src="Gong cha.jpg" alt="">
+        <div style="width: 300px; height: 300px;"class="one">
+          <img class="cha" src="Gong cha.jpg" alt="">
+        </div>
+        <div style="width: 300px; height: 300px; "class="two">
         <img class="ama" src="amasvin.jpg" alt="">
+        </div>
+        <div style="width: 300px; height: 300px; "class="three">
+<img class="pal" src="palgongtea.png" alt="">
+        </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <table>
-      <thead>
-        <tr>
-          <th>공차</th>
-          <th>아마스빈</th>
-        </tr>
-      </thead>
-        <tbody>
+<br><br><br>
+      <div style="clear:both;">
+        <h3>FAVORITE MENU</h3>
+        <table>
+        <thead>
           <tr>
-            <td>얼그레이 밀크티</td>
-            <td>초코 오레오 쉐이크</td>
+            <th>공차</th>
+            <th>아마스빈</th>
+            <th>팔공티</th>
           </tr>
-          <tr>
-            <td>브라운 슈가 쥬얼리 밀크티</td>
-            <td>딸기 요거트 버블티</td>
-          </tr>
-        </tbody>
-      </table>
+        </thead>
+          <tbody>
+            <tr>
+              <td>브라운 슈가 쥬얼리 밀크티</td>
+              <td>초코 오레오 쉐이크</td>
+              <td>얼그레이 밀크티</td>
+            </tr>
+            <tr>
+              <td>망고 요구르트</td>
+              <td>딸기 요거트 버블티</td>
+              <td>까오슝 밀크티</td>
+            </tr>
+          </tbody>
+        </table>
+        <img class="br" src="brown.jpg" alt="">
+        <img class="mi" src="milk.jpg" alt="">
+        </div>
     </div>
   </div>
 </body>
