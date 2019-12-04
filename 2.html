@@ -5,13 +5,20 @@
     <title>내가 좋아하는 것</title>
 <link rel="stylesheet" href="style.css">
     <style media="screen">
+    .main{display: grid;
+    grid-template-columns: 1fr 1fr}
 .jang{   width: 300px;
     height: 300px;}
     .link{color: blue;}
+    .a{float: left;}
     .b{float: left;}
     .c{float: left;}
-    .d{clear:both;
-    padding-top: 50px;}
+    .d{clear: both;
+      padding-top: 50px;}
+  .ja{width: 250px; height: 250px;
+  padding-top: 30px;}
+  .jaa{width: 250px; height: 250px;}
+  .jaaa{width: 250px; height: 250px;}
 </style>
   </head>
   <body>
@@ -25,25 +32,32 @@
     </ol>
     </div>
 <div class="article">
-  <h2>장범준</h2>
-  <div class="a">
-    <div class="b">
-      <img class="jang"src="singer.jpg" alt="">
+  <div class="main">
+    <div class="a">
+        <h2>장범준</h2>
+      <div class="b">
+        <img class="jang"src="singer.jpg" alt="">
+      </div>
+      <div class="c">
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <ul>
+          <li>Instagram_ @halfbasement9395</li>
+          <li>Youtube_ <a class="link"href="https://www.youtube.com/channel/UCjwCsj-axFNcxnv3yzV22WQ">Click</a></li>
+        </ul>
+      </div>
+      <div class="d">
+        FAVORITE SONG
+        <br><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u0hEgrjqQro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
-    <div class="c">
-      <br><br><br><br><br><br><br><br><br><br><br>
-      <ul>
-        <li>Instagram_ @halfbasement9395</li>
-        <li>Youtube_ <a class="link"href="https://www.youtube.com/channel/UCjwCsj-axFNcxnv3yzV22WQ">Click</a></li>
-      </ul>
+    <div class="aa">
+      <img class="ja"src="jang1.jpg" alt="">장범준 1집<br>
+      <img class="jaa"src="jang2.jpg" alt="">장범준 2집<br>
+      <img class="jaaa"src="jang3.jpg" alt="">장범준 3집
     </div>
   </div>
-  <div class="d">
-    FAVORITE SONG
-    <br><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/u0hEgrjqQro" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-</div>
 </div>
   </body>
 </html>
